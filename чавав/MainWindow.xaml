@@ -1,0 +1,57 @@
+﻿<Window x:Class="чавав.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:чавав"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="800" Margin="0,0.8,0.2,1">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF9496C1"/>
+                <GradientStop Color="#FF292F96"/>
+                <GradientStop Color="#FF1A1E60" Offset="0.08"/>
+                <GradientStop Color="#FF2E34A5" Offset="0.903"/>
+                <GradientStop Color="#FF272D91" Offset="0.983"/>
+                <GradientStop Color="#FFC7C7D6" Offset="0.243"/>
+                <GradientStop Color="#FFBBBBF7" Offset="0.747"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform/>
+                <TranslateTransform X="0"/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Btn1"
+HorizontalAlignment="Center"
+VerticalAlignment="Center"
+Width="187"
+Height="47"
+FontSize="17"
+Content="КНОПКА"
+Foreground="Black"
+BorderBrush="Red" Click="Btn1_Click" Grid.Column="1" FontStyle="Normal" OpacityMask="#FF7B3E3E" FontFamily="Arial Black" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFF14141" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
+    
+    
+    
+    
+    
